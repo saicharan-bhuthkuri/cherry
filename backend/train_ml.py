@@ -7,7 +7,7 @@ from data_parser import parse_accident_data
 
 def train_model():
     print("Loading data for training...")
-    df = parse_accident_data(r"c:\Users\bhuth\Downloads\cherry\CSV .txt")
+    df = parse_accident_data(r"../CSV .txt")
     
     time_choices = ['Day', 'Night']
     df['time_of_day'] = [random.choice(time_choices) for _ in range(len(df))]

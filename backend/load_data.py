@@ -19,7 +19,7 @@ except OperationalError as e:
     SessionLocal.configure(bind=engine)
 
 def load_data():
-    df = parse_accident_data(r"c:\Users\bhuth\Downloads\cherry\CSV .txt")
+    df = parse_accident_data(r"../CSV .txt")
     time_choices = ['Day', 'Night']
     
     db: Session = SessionLocal()

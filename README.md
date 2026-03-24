@@ -2,7 +2,10 @@
 
 Welcome to **SafeRoute Peddapalli**! 
 
+**Repository:** [https://github.com/saicharan-bhuthkuri/SafeRoute_Peddapalli.git](https://github.com/saicharan-bhuthkuri/SafeRoute_Peddapalli.git)
+
 This is a full-stack web application designed to predict the safety and risk of road travel routes in the Peddapalli region. By leveraging a Machine Learning model (Random Forest), SafeRoute evaluates road safety based on historic accident data, weather conditions, time of day, and road types, providing users with the safest possible routes.
+
 
 ---
 
